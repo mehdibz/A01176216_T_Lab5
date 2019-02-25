@@ -1,0 +1,112 @@
+2018-02-16 14:55:01.677 [main] INFO  a00123456.Lab5 - Start: 2018-02-16T22:55:00.263276Z
+2018-02-16 14:55:01.681 [main] DEBUG a00123456.Lab5 - Lab5()
+2018-02-16 14:55:01.681 [main] DEBUG a00123456.Lab5 - run()
+2018-02-16 14:55:01.682 [main] DEBUG a00123456.Lab5 - Reading the Customers Report from '/Users/sam/Work/BCIT/COMP 2613 Java Application Development/COMP 2613/Solutions/A00123456Lab5/out/customers.txt'
+2018-02-16 14:55:01.684 [main] DEBUG a00123456.io.CustomerReader - Reading: customers.txt
+2018-02-16 14:55:01.685 [main] DEBUG a00123456.io.CustomerReader - 1|Fred|Fish|5707 Sidley St|Burnaby|V5J 5E6|(604) 433-5004|fredfish@imperial.net|20080322
+2018-02-16 14:55:01.689 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J 5E6, phone=(604) 433-5004, emailAddress=fredfish@imperial.net, joinedDate=2008-02-22]
+2018-02-16 14:55:01.689 [main] DEBUG a00123456.io.CustomerReader - 2|Laurie|Nash|2816 Commercial Dr|Vancouver|V5N 4C6|(604) 876-0182|laurieeenash@modern.com|20140828
+2018-02-16 14:55:01.690 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N 4C6, phone=(604) 876-0182, emailAddress=laurieeenash@modern.com, joinedDate=2014-07-28]
+2018-02-16 14:55:01.690 [main] DEBUG a00123456.io.CustomerReader - 3|Conrad|Washington|13479 King George Blvd|Surrey|V3T 2T8|(604) 588-4988|cwash@daytona.net|20110712
+2018-02-16 14:55:01.691 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T 2T8, phone=(604) 588-4988, emailAddress=cwash@daytona.net, joinedDate=2011-06-12]
+2018-02-16 14:55:01.691 [main] DEBUG a00123456.io.CustomerReader - 4|Jeanette|Price|21000 Westminster Hwy|Richmond|V6V 2S9|(604) 276-2552|priceizrite@pacific.com|20151003
+2018-02-16 14:55:01.692 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V 2S9, phone=(604) 276-2552, emailAddress=priceizrite@pacific.com, joinedDate=2015-09-03]
+2018-02-16 14:55:01.692 [main] DEBUG a00123456.io.CustomerReader - 5|Mark|Chan|3766 E 1st Ave|Burnaby|V5C 3V9|(604) 293-1022|mchan@hc.com|20100401
+2018-02-16 14:55:01.692 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C 3V9, phone=(604) 293-1022, emailAddress=mchan@hc.com, joinedDate=2010-03-01]
+2018-02-16 14:55:01.694 [main] DEBUG a00123456.Lab5 - Writing the Customers Report to '/Users/sam/Work/BCIT/COMP 2613 Java Application Development/COMP 2613/Solutions/A00123456Lab5/out/customers_report.txt'
+2018-02-16 14:55:01.722 [main] DEBUG a00123456.io.CustomerReport - Creating the customer report
+2018-02-16 14:55:01.723 [main] DEBUG a00123456.io.CustomerReport - Customers Report
+2018-02-16 14:55:01.723 [main] DEBUG a00123456.io.CustomerReport - ----------------------------------------------------------------------------------------------------------------------------------------------
+2018-02-16 14:55:01.724 [main] DEBUG a00123456.io.CustomerReport -   #. ID     First name   Last name    Street                    City         Postal Code  Phone           Email                    Join Date
+2018-02-16 14:55:01.724 [main] DEBUG a00123456.io.CustomerReport - ----------------------------------------------------------------------------------------------------------------------------------------------
+2018-02-16 14:55:01.742 [main] DEBUG a00123456.io.CustomerReport -   1. 000001 Fred         Fish         5707 Sidley St            Burnaby      V5J 5E6      (604) 433-5004  fredfish@imperial.net    Feb 22 2008
+2018-02-16 14:55:01.743 [main] DEBUG a00123456.io.CustomerReport -   2. 000005 Mark         Chan         3766 E 1st Ave            Burnaby      V5C 3V9      (604) 293-1022  mchan@hc.com             Mar 01 2010
+2018-02-16 14:55:01.743 [main] DEBUG a00123456.io.CustomerReport -   3. 000003 Conrad       Washington   13479 King George Blvd    Surrey       V3T 2T8      (604) 588-4988  cwash@daytona.net        Jun 12 2011
+2018-02-16 14:55:01.744 [main] DEBUG a00123456.io.CustomerReport -   4. 000002 Laurie       Nash         2816 Commercial Dr        Vancouver    V5N 4C6      (604) 876-0182  laurieeenash@modern.com  Jul 28 2014
+2018-02-16 14:55:01.744 [main] DEBUG a00123456.io.CustomerReport -   5. 000004 Jeanette     Price        21000 Westminster Hwy     Richmond     V6V 2S9      (604) 276-2552  priceizrite@pacific.com  Sep 03 2015
+2018-02-16 14:55:01.745 [main] INFO  a00123456.Lab5 - End: 2018-02-16T22:55:01.745171Z
+2018-02-16 14:55:01.745 [main] INFO  a00123456.Lab5 - Duration: 1481 ms
+2018-10-15 21:36:54.335 [main] INFO  a00123456.Lab5 - Start: 2018-10-16T04:36:53.254438Z
+2018-10-15 21:36:54.340 [main] DEBUG a00123456.Lab5 - Lab5()
+2018-10-15 21:36:54.341 [main] DEBUG a00123456.Lab5 - run()
+2018-10-15 21:36:54.341 [main] DEBUG a00123456.Lab5 - Reading the Customers Report from '/Users/sam/Work/BCIT/COMP 2613 Java Application Development/COMP 2613/Solutions/A00123456Lab5/out/customers.txt'
+2018-10-15 21:36:54.343 [main] DEBUG a00123456.io.CustomerReader - Reading: customers.txt
+2018-10-15 21:36:54.344 [main] DEBUG a00123456.io.CustomerReader - 1|Fred|Fish|5707 Sidley St|Burnaby|V5J 5E6|(604) 433-5004|fredfish@imperial.net|20080322
+2018-10-15 21:36:54.350 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J 5E6, phone=(604) 433-5004, emailAddress=fredfish@imperial.net, joinedDate=2008-02-22]
+2018-10-15 21:36:54.350 [main] DEBUG a00123456.io.CustomerReader - 2|Laurie|Nash|2816 Commercial Dr|Vancouver|V5N 4C6|(604) 876-0182|laurieeenash@modern.com|20140828
+2018-10-15 21:36:54.351 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N 4C6, phone=(604) 876-0182, emailAddress=laurieeenash@modern.com, joinedDate=2014-07-28]
+2018-10-15 21:36:54.351 [main] DEBUG a00123456.io.CustomerReader - 3|Conrad|Washington|13479 King George Blvd|Surrey|V3T 2T8|(604) 588-4988|cwash@daytona.net|20110712
+2018-10-15 21:36:54.352 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T 2T8, phone=(604) 588-4988, emailAddress=cwash@daytona.net, joinedDate=2011-06-12]
+2018-10-15 21:36:54.352 [main] DEBUG a00123456.io.CustomerReader - 4|Jeanette|Price|21000 Westminster Hwy|Richmond|V6V 2S9|(604) 276-2552|priceizrite@pacific.com|20151003
+2018-10-15 21:36:54.353 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V 2S9, phone=(604) 276-2552, emailAddress=priceizrite@pacific.com, joinedDate=2015-09-03]
+2018-10-15 21:36:54.353 [main] DEBUG a00123456.io.CustomerReader - 5|Mark|Chan|3766 E 1st Ave|Burnaby|V5C 3V9|(604) 293-1022|mchan@hc.com|20100401
+2018-10-15 21:36:54.354 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C 3V9, phone=(604) 293-1022, emailAddress=mchan@hc.com, joinedDate=2010-03-01]
+2018-10-15 21:36:54.355 [main] DEBUG a00123456.Lab5 - Writing the Customers Report to '/Users/sam/Work/BCIT/COMP 2613 Java Application Development/COMP 2613/Solutions/A00123456Lab5/out/customers_report.txt'
+2018-10-15 21:36:54.357 [main] DEBUG a00123456.io.CustomerReport - Creating the customer report
+2018-10-15 21:36:54.358 [main] DEBUG a00123456.io.CustomerReport - Customers Report
+2018-10-15 21:36:54.358 [main] DEBUG a00123456.io.CustomerReport - ----------------------------------------------------------------------------------------------------------------------------------------------
+2018-10-15 21:36:54.359 [main] DEBUG a00123456.io.CustomerReport -   #. ID     First name   Last name    Street                    City         Postal Code  Phone           Email                    Join Date
+2018-10-15 21:36:54.359 [main] DEBUG a00123456.io.CustomerReport - ----------------------------------------------------------------------------------------------------------------------------------------------
+2018-10-15 21:36:54.376 [main] DEBUG a00123456.io.CustomerReport -   1. 000001 Fred         Fish         5707 Sidley St            Burnaby      V5J 5E6      (604) 433-5004  fredfish@imperial.net    Feb 22 2008
+2018-10-15 21:36:54.377 [main] DEBUG a00123456.io.CustomerReport -   2. 000005 Mark         Chan         3766 E 1st Ave            Burnaby      V5C 3V9      (604) 293-1022  mchan@hc.com             Mar 01 2010
+2018-10-15 21:36:54.378 [main] DEBUG a00123456.io.CustomerReport -   3. 000003 Conrad       Washington   13479 King George Blvd    Surrey       V3T 2T8      (604) 588-4988  cwash@daytona.net        Jun 12 2011
+2018-10-15 21:36:54.378 [main] DEBUG a00123456.io.CustomerReport -   4. 000002 Laurie       Nash         2816 Commercial Dr        Vancouver    V5N 4C6      (604) 876-0182  laurieeenash@modern.com  Jul 28 2014
+2018-10-15 21:36:54.379 [main] DEBUG a00123456.io.CustomerReport -   5. 000004 Jeanette     Price        21000 Westminster Hwy     Richmond     V6V 2S9      (604) 276-2552  priceizrite@pacific.com  Sep 03 2015
+2018-10-15 21:36:54.379 [main] INFO  a00123456.Lab5 - End: 2018-10-16T04:36:54.379442Z
+2018-10-15 21:36:54.379 [main] INFO  a00123456.Lab5 - Duration: 1125 ms
+2019-02-16 20:58:56.862 [main] INFO  a00123456.Lab5 - Start: 2019-02-17T04:58:51.237637Z
+2019-02-16 20:58:56.865 [main] DEBUG a00123456.Lab5 - Lab5()
+2019-02-16 20:58:56.865 [main] DEBUG a00123456.Lab5 - run()
+2019-02-16 20:58:56.865 [main] DEBUG a00123456.Lab5 - Reading the Customers Report from '/Users/scirka/Documents/bcit/Solutions/A00123456Lab5/out/customers.txt'
+2019-02-16 20:58:56.866 [main] DEBUG a00123456.io.CustomerReader - Reading: customers.txt
+2019-02-16 20:58:56.867 [main] DEBUG a00123456.io.CustomerReader - 1|Fred|Fish|5707 Sidley St|Burnaby|V5J 5E6|(604) 433-5004|fredfish@imperial.net|20080322
+2019-02-16 20:58:56.868 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J 5E6, phone=(604) 433-5004, emailAddress=fredfish@imperial.net, joinedDate=2008-02-22]
+2019-02-16 20:58:56.869 [main] DEBUG a00123456.io.CustomerReader - 2|Laurie|Nash|2816 Commercial Dr|Vancouver|V5N 4C6|(604) 876-0182|laurieeenash@modern.com|20140828
+2019-02-16 20:58:56.869 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N 4C6, phone=(604) 876-0182, emailAddress=laurieeenash@modern.com, joinedDate=2014-07-28]
+2019-02-16 20:58:56.869 [main] DEBUG a00123456.io.CustomerReader - 3|Conrad|Washington|13479 King George Blvd|Surrey|V3T 2T8|(604) 588-4988|cwash@daytona.net|20110712
+2019-02-16 20:58:56.870 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T 2T8, phone=(604) 588-4988, emailAddress=cwash@daytona.net, joinedDate=2011-06-12]
+2019-02-16 20:58:56.870 [main] DEBUG a00123456.io.CustomerReader - 4|Jeanette|Price|21000 Westminster Hwy|Richmond|V6V 2S9|(604) 276-2552|priceizrite@pacific.com|20151003
+2019-02-16 20:58:56.870 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V 2S9, phone=(604) 276-2552, emailAddress=priceizrite@pacific.com, joinedDate=2015-09-03]
+2019-02-16 20:58:56.871 [main] DEBUG a00123456.io.CustomerReader - 5|Mark|Chan|3766 E 1st Ave|Burnaby|V5C 3V9|(604) 293-1022|mchan@hc.com|20100401
+2019-02-16 20:58:56.871 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C 3V9, phone=(604) 293-1022, emailAddress=mchan@hc.com, joinedDate=2010-03-01]
+2019-02-16 20:58:56.872 [main] DEBUG a00123456.Lab5 - Writing the Customers Report to '/Users/scirka/Documents/bcit/Solutions/A00123456Lab5/out/customers_report.txt'
+2019-02-16 20:58:56.873 [main] DEBUG a00123456.io.CustomerReport - Creating the customer report
+2019-02-16 20:58:56.874 [main] DEBUG a00123456.io.CustomerReport - Customers Report
+2019-02-16 20:58:56.874 [main] DEBUG a00123456.io.CustomerReport - ----------------------------------------------------------------------------------------------------------------------------------------------
+2019-02-16 20:58:56.874 [main] DEBUG a00123456.io.CustomerReport -   #. ID     First name   Last name    Street                    City         Postal Code  Phone           Email                    Join Date
+2019-02-16 20:58:56.875 [main] DEBUG a00123456.io.CustomerReport - ----------------------------------------------------------------------------------------------------------------------------------------------
+2019-02-16 20:58:56.888 [main] DEBUG a00123456.io.CustomerReport -   1. 000001 Fred         Fish         5707 Sidley St            Burnaby      V5J 5E6      (604) 433-5004  fredfish@imperial.net    Feb. 22 2008
+2019-02-16 20:58:56.888 [main] DEBUG a00123456.io.CustomerReport -   2. 000005 Mark         Chan         3766 E 1st Ave            Burnaby      V5C 3V9      (604) 293-1022  mchan@hc.com             Mar. 01 2010
+2019-02-16 20:58:56.889 [main] DEBUG a00123456.io.CustomerReport -   3. 000003 Conrad       Washington   13479 King George Blvd    Surrey       V3T 2T8      (604) 588-4988  cwash@daytona.net        Jun. 12 2011
+2019-02-16 20:58:56.889 [main] DEBUG a00123456.io.CustomerReport -   4. 000002 Laurie       Nash         2816 Commercial Dr        Vancouver    V5N 4C6      (604) 876-0182  laurieeenash@modern.com  Jul. 28 2014
+2019-02-16 20:58:56.890 [main] DEBUG a00123456.io.CustomerReport -   5. 000004 Jeanette     Price        21000 Westminster Hwy     Richmond     V6V 2S9      (604) 276-2552  priceizrite@pacific.com  Sep. 03 2015
+2019-02-16 20:58:56.890 [main] INFO  a00123456.Lab5 - End: 2019-02-17T04:58:56.890396Z
+2019-02-16 20:58:56.890 [main] INFO  a00123456.Lab5 - Duration: 5652 ms
+2019-02-16 20:59:10.569 [main] INFO  a00123456.Lab5 - Start: 2019-02-17T04:59:04.960753Z
+2019-02-16 20:59:10.571 [main] DEBUG a00123456.Lab5 - Lab5()
+2019-02-16 20:59:10.571 [main] DEBUG a00123456.Lab5 - run()
+2019-02-16 20:59:10.572 [main] DEBUG a00123456.Lab5 - Reading the Customers Report from '/Users/scirka/Documents/bcit/Solutions/A00123456Lab5/out/customers.txt'
+2019-02-16 20:59:10.572 [main] DEBUG a00123456.io.CustomerReader - Reading: customers.txt
+2019-02-16 20:59:10.573 [main] DEBUG a00123456.io.CustomerReader - 1|Fred|Fish|5707 Sidley St|Burnaby|V5J 5E6|(604) 433-5004|fredfish@imperial.net|20080322
+2019-02-16 20:59:10.575 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=1, firstName=Fred, lastName=Fish, street=5707 Sidley St, city=Burnaby, postalCode=V5J 5E6, phone=(604) 433-5004, emailAddress=fredfish@imperial.net, joinedDate=2008-02-22]
+2019-02-16 20:59:10.575 [main] DEBUG a00123456.io.CustomerReader - 2|Laurie|Nash|2816 Commercial Dr|Vancouver|V5N 4C6|(604) 876-0182|laurieeenash@modern.com|20140828
+2019-02-16 20:59:10.575 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=2, firstName=Laurie, lastName=Nash, street=2816 Commercial Dr, city=Vancouver, postalCode=V5N 4C6, phone=(604) 876-0182, emailAddress=laurieeenash@modern.com, joinedDate=2014-07-28]
+2019-02-16 20:59:10.575 [main] DEBUG a00123456.io.CustomerReader - 3|Conrad|Washington|13479 King George Blvd|Surrey|V3T 2T8|(604) 588-4988|cwash@daytona.net|20110712
+2019-02-16 20:59:10.576 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=3, firstName=Conrad, lastName=Washington, street=13479 King George Blvd, city=Surrey, postalCode=V3T 2T8, phone=(604) 588-4988, emailAddress=cwash@daytona.net, joinedDate=2011-06-12]
+2019-02-16 20:59:10.576 [main] DEBUG a00123456.io.CustomerReader - 4|Jeanette|Price|21000 Westminster Hwy|Richmond|V6V 2S9|(604) 276-2552|priceizrite@pacific.com|20151003
+2019-02-16 20:59:10.576 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=4, firstName=Jeanette, lastName=Price, street=21000 Westminster Hwy, city=Richmond, postalCode=V6V 2S9, phone=(604) 276-2552, emailAddress=priceizrite@pacific.com, joinedDate=2015-09-03]
+2019-02-16 20:59:10.576 [main] DEBUG a00123456.io.CustomerReader - 5|Mark|Chan|3766 E 1st Ave|Burnaby|V5C 3V9|(604) 293-1022|mchan@hc.com|20100401
+2019-02-16 20:59:10.577 [main] DEBUG a00123456.io.CustomerReader - Added: Customer [id=5, firstName=Mark, lastName=Chan, street=3766 E 1st Ave, city=Burnaby, postalCode=V5C 3V9, phone=(604) 293-1022, emailAddress=mchan@hc.com, joinedDate=2010-03-01]
+2019-02-16 20:59:10.577 [main] DEBUG a00123456.Lab5 - Writing the Customers Report to '/Users/scirka/Documents/bcit/Solutions/A00123456Lab5/out/customers_report.txt'
+2019-02-16 20:59:10.578 [main] DEBUG a00123456.io.CustomerReport - Creating the customer report
+2019-02-16 20:59:10.579 [main] DEBUG a00123456.io.CustomerReport - Customers Report
+2019-02-16 20:59:10.579 [main] DEBUG a00123456.io.CustomerReport - ----------------------------------------------------------------------------------------------------------------------------------------------
+2019-02-16 20:59:10.580 [main] DEBUG a00123456.io.CustomerReport -   #. ID     First name   Last name    Street                    City         Postal Code  Phone           Email                    Join Date
+2019-02-16 20:59:10.580 [main] DEBUG a00123456.io.CustomerReport - ----------------------------------------------------------------------------------------------------------------------------------------------
+2019-02-16 20:59:10.592 [main] DEBUG a00123456.io.CustomerReport -   1. 000001 Fred         Fish         5707 Sidley St            Burnaby      V5J 5E6      (604) 433-5004  fredfish@imperial.net    Feb. 22 2008
+2019-02-16 20:59:10.592 [main] DEBUG a00123456.io.CustomerReport -   2. 000005 Mark         Chan         3766 E 1st Ave            Burnaby      V5C 3V9      (604) 293-1022  mchan@hc.com             Mar. 01 2010
+2019-02-16 20:59:10.593 [main] DEBUG a00123456.io.CustomerReport -   3. 000003 Conrad       Washington   13479 King George Blvd    Surrey       V3T 2T8      (604) 588-4988  cwash@daytona.net        Jun. 12 2011
+2019-02-16 20:59:10.593 [main] DEBUG a00123456.io.CustomerReport -   4. 000002 Laurie       Nash         2816 Commercial Dr        Vancouver    V5N 4C6      (604) 876-0182  laurieeenash@modern.com  Jul. 28 2014
+2019-02-16 20:59:10.594 [main] DEBUG a00123456.io.CustomerReport -   5. 000004 Jeanette     Price        21000 Westminster Hwy     Richmond     V6V 2S9      (604) 276-2552  priceizrite@pacific.com  Sep. 03 2015
+2019-02-16 20:59:10.594 [main] INFO  a00123456.Lab5 - End: 2019-02-17T04:59:10.594762Z
+2019-02-16 20:59:10.595 [main] INFO  a00123456.Lab5 - Duration: 5634 ms
